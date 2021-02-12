@@ -30,7 +30,11 @@ module.exports = {
     async createPost(_, { body }, context) {
       //we use the context to get the users
       const user = checkAuth(context);
-      console.log(user);
+      // console.log(user);
+      //valid the post
+      if (args.body.trim() === "") {
+        throw new Error("Post body must not be empty");
+      }
       const newPost = new Post({
         body,
         user: user.indexOf,
