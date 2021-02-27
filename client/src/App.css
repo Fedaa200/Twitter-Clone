@@ -1,0 +1,22 @@
+.title {
+  display: block !important;
+  text-align: center;
+  font-size: 2rem;
+  margin-top: 10px;
+}
+
+.signUPForm {
+  padding: 120px 30px 30px 30px;
+  width: 500px;
+  margin: auto;
+}
+.field {
+  width: 350px;
+}
+.input {
+  background-color: rgb(101, 157, 240);
+}
+.button {
+  text-align: center;
+  width: 350px;
+}
